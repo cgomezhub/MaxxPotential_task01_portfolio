@@ -55,8 +55,8 @@
 }
 
 .header__link{
-  line-height: 25PX;
-  font-size: 18PX;
+  line-height: 25px;
+  font-size: 18px;
   font-weight: normal;
   color: #2F80ED;
   position: absolute;
@@ -344,8 +344,7 @@
   margin: 0;
   display: flex;
   flex-direction: column;
-  justify-content: space-between
-
+  justify-content: space-between;
 }
 
 /* 5 */
@@ -398,7 +397,6 @@
   font-weight: normal;
   list-style: none;
   color: #f2f2f2;
-  list-style: none;
   text-decoration: none;
 }
 
