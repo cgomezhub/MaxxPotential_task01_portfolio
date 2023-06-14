@@ -1,3 +1,12 @@
+@keyframes rotation {
+  from {
+      transform: rotate(-15deg);
+  }
+  to {
+      transform: rotate(345deg);
+  }
+}
+
 .page {
   min-width: 1100px;
   /* we don't know how to make mobile versions of websites yet, */
@@ -16,6 +25,7 @@
   display: flex;
   position:relative;
   background-color: #F2F2F2;
+  overflow: hidden;
   
   /* parameters for the header section */
 }
@@ -83,8 +93,13 @@
   top: 64px;
   background-color: #2F80ED;
   z-index: 0;
+  transform: rotate(-15deg);
+  
 }
 
+.rotation{
+  animation: rotation 20s linear infinite;
+}
 
 
 /* here we have two examples of selectors in order to remind you how to set styles for elements */
@@ -95,7 +110,6 @@
 
 .description{
   padding-top: 100px;
-  padding-bottom: 100px;
 
 }
 
@@ -138,6 +152,18 @@
 }
 
 
+.techniques{
+  margin: 0 auto;
+
+
+
+}
+
+.digits{
+  padding-top: 100px;
+  padding-bottom: 100px;
+
+}
 
 .Section-title {
   line-height: 1.15;
@@ -153,22 +179,170 @@
   font-size: 24px;
   font-weight: normal;
   width: 60%;
-  padding-top: 20px;
   margin: 0 auto;
   text-align: center;
 }
 
-.table {
+.cards {
+  width: 920px;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  margin: auto;
+  column-gap: 100px;
+  padding: 0px;
+  list-style: none;
+
+
+}
+
+.cards__title {
+  line-height: 115%;
+  font-size: 24px;
+  font-weight: bold;
+  width: 240px;
+  text-align: center;
+  margin: 0px 0px 16px 0px;
+}
+
+.cards__description{
+  line-height: 23px;
+  font-size: 18px;
+  font-weight: normal;
+  width: 240px;
+  text-align: center;
+  margin: 0px;
+
+
+}
+
+.cards__image {
+  height: 160px;
+  width: 160px;
+  padding: 60px 40px 43px 40px;
+}
+
+
+.video{
+  padding-top: 100px;
+}
+
+.video__iframes{
+  padding-top: 50px;
+  display: flex;
+  column-gap: 10px;
+  justify-content: center;
+}
+
+.video__iframe{
+  width: 515px;
+  height: 316px;
+}
+
+.oakley{
+  padding-top: 160px;
+  margin-top: -60px;
+  padding-bottom: 100px;
+  background-color: #F2F2F2;
+  
+}
+
+.khan{
+  background-color: #F2F2F2;
+  width:100%;
+  padding-top: 105px;
+}
+.khan__container{
+width: 80%;
+margin: 0 auto;
+}
+
+.khan__author{
+  margin:0;
+  line-height: 42px;
+  font-size: 30px;
+  font-weight: normal;
+}
+.khan__title{
+  margin: 0;
+  line-height: 115%;
+  font-size: 60px;
+  font-weight: bold;
+}
+.khan__quote{
+  width: 790px;
+  margin: 0;
+  padding-top: 50px;
+  padding-bottom: 36px;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+}
+.khan__quote-author{
+  width: 100%;
+  margin: 0;
+  line-height: 115%;
+  font-size: 24px;
+  font-weight: bold;
+}
+.khan__quote-author-sublime{
+  width: 100%;
+  margin: 0;
+  padding-top: 10px;
+  line-height: 115%;
+  font-size: 24px;
+  font-weight: normal;
+  padding-bottom: 68px;
+}
+.khan__book-container{
+  width: 620px;
+  height: 608px;
+  display: inline-block;
+  column-gap: 48px;
+  margin: 0px;
+  overflow: hidden;
+}
+.khan__book-pic{
+  width: 100%;
+  
+}
+.khan__buy-link{
+vertical-align: top;
+text-decoration: none;
+color:#2F80ED;
+line-height: 42px;
+font-size: 30px;
+font-weight: normal;
+margin-top: 68px;
+}
+
+.resources__logo-zone{
   display: flex;
   width: 1100px;
-  margin: 60px auto 100px;
+  padding-top: 80px;
+  padding-bottom: 217px;
+  margin: auto;
+}
+
+.resources__logo{
+  width: 270px;
+  height: 38px;
+
+}
+
+.table {
+  display: flex;
+  width: 100%;
+  margin: 60px auto 0px;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: space-between;
   row-gap: 60px;
+  list-style: none;
+  padding: 0;
 }
 
 .table__cell {
-  width: 250px;
+  width: 350px;
 }
   
 
@@ -206,7 +380,6 @@
   font-size: 120px;
   font-weight: bold;
   margin: 0px auto 0px;
-  padding-top: 100px;
   text-align: center;
 }
 
@@ -228,6 +401,7 @@
   right: 48px;
   top: 50%;
   text-decoration: none;
+  color: #2F80ED;
 }
 
 .feynman__image {
@@ -240,13 +414,19 @@
 }
 
 .kaufman {
-  width: 100%;
   position: relative;
   padding-top: 90px;
   padding-bottom: 90px;
   background-color: #000000;
   overflow: hidden;
 
+}
+
+.kaufman__triangle{
+  position: absolute;
+  right: -124px;
+  border: 0px;
+  z-index: 0;
 }
 
 .section-title_theme_dark{
@@ -311,12 +491,6 @@
 
 }
 
-.kaufman__triangle{
-  position: absolute;
-  right: -124px;
-  top: 0px;
-  z-index: 0;
-}
 
 
 .footer{
