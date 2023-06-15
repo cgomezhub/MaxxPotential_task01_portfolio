@@ -1,0 +1,17 @@
+
+.video{
+    padding-top: 100px;
+}
+  
+.video__iframes{
+    padding-top: 50px;
+    display: flex;
+    column-gap: 10px;
+    justify-content: center;
+}
+  
+.video__iframe{
+    width: 515px;
+    height: 316px;
+}
+  
