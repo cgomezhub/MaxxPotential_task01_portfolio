@@ -1,0 +1,5 @@
+.feynman__content {
+    width:100%;
+    position: absolute;
+    z-index: 1;
+}

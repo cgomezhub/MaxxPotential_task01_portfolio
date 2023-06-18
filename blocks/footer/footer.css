@@ -3,85 +3,17 @@
     height: 350px;
 }
     
-.footer__columns{
-    width:90%;
-    height: 55%;
-    margin: auto;
-    padding-top:  60px;
-    padding-bottom: 40px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
   
+
   
-.footer__column_content_copyright{
-    flex-basis: 711px;
-    margin: 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
+
   
+
   
-.logo_place_footer{
-    width: 183px;
-    height: 35px;
-}
-  
-  
-.footer__author{
-    width: max-content;
-    color: #ffffff;
-    padding-top: 18px;
-    padding-bottom: 18px;
-    margin: 0;
-    line-height: 25px;
-    font-size: 18px;
-    font-weight: normal;
-}
-  
-.footer__column_content_about{
-    width: auto;
-    display: flex;
-    flex-direction: column;
-}
-  
-.footer__column-heading{
-    width: max-content;
-    color: #ffffff;
-    line-height: 30px;
-    font-size: 18px;
-    font-weight: bold;
-    margin: 0;
-    padding-bottom: 20px;
-}
-  
-.footer__list{
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    text-decoration: none;
-}
-  
-.footer__column-link{
-    line-height: 30px;
-    font-size: 18px;
-    font-weight: normal;
-    list-style: none;
-    color: #f2f2f2;
-    text-decoration: none;
-}
+
+
    
-.footer__column_content_social{
-    width:auto;
-    display: flex;
-    flex-direction: column;
-}
+
   
-.footer__social-icons{
-    width: 16px;
-    height: 16px;
-    padding-right: 10px;
-}
+
   
