@@ -1,18 +1,11 @@
 .table_theme_dark{
     display: flex;
     width: 1100px;
-<<<<<<< HEAD
     margin: 0px auto;
-=======
-    margin: 0px auto 0px;
->>>>>>> 5b4fbda6ea7eefd9fa6196c544b2c76e4e133c92
     flex-wrap: wrap;
     justify-content: space-between;
     row-gap: 80px;
     padding-top: 80px;
     padding-left: 0;
-<<<<<<< HEAD
     color: white;
-=======
->>>>>>> 5b4fbda6ea7eefd9fa6196c544b2c76e4e133c92
 }
