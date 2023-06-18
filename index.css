@@ -46,6 +46,7 @@
 @import url(./blocks/section-title/_theme/section-title_theme_dark.css);
 @import url(./blocks/section-subtitle/_theme/section-subtitle_theme_dark.css);
 
+
 /* cards*/
 @import url(./blocks/cards/cards.css);
 @import url(./blocks/cards/__item/cards_item.css);
@@ -66,8 +67,13 @@
 /* feyman */
 @import url(./blocks/feynman/feynman.css);
 @import url(./blocks/feynman/__content/feyman__content.css);
+<<<<<<< HEAD
 @import url(./blocks/feynman/__title/feyman__title.css);
 @import url(./blocks/feynman/__subtitle/feyman__subtitle.css);
+=======
+@import url(./blocks/feynman/__content/__title/feyman__content__title.css);
+@import url(./blocks/feynman/__content/__subtitle/feyman__content__subtitle.css);
+>>>>>>> 5b4fbda6ea7eefd9fa6196c544b2c76e4e133c92
 @import url(./blocks/feynman/__link/feyman__link.css);
 @import url(./blocks/feynman/__image/feyman__image.css);
 
@@ -77,6 +83,7 @@
 /* table */
 @import url(./blocks/table/table.css);
 @import url(./blocks/table/__cell/table__cell.css);
+<<<<<<< HEAD
 @import url(./blocks/table/__heading/table__heading.css);
 @import url(./blocks/table/__text/table__text.css);
 @import url(./blocks/table/_theme/table_theme_dark.css);
@@ -85,6 +92,10 @@
 @import url(./blocks/table/__text/_theme/table__text_theme_dark.css);
 
 
+=======
+@import url(./blocks/table/__cell/__heading/table__cell__heading.css);
+@import url(./blocks/table/__cell/__text/table__cell__text.css);
+>>>>>>> 5b4fbda6ea7eefd9fa6196c544b2c76e4e133c92
 
 /* khan */
 @import url(./blocks/khan/khan.css);
@@ -101,6 +112,15 @@
 /* kaufman */
 @import url(./blocks/kaufman/kaufman.css);
 @import url(./blocks/kaufman/__triangle/kaufman__triangle.css);
+<<<<<<< HEAD
+=======
+@import url(./blocks/section-title/_theme/section-title_theme_dark.css);
+@import url(./blocks/section-subtitle/_theme/section-subtitle_theme_dark.css);
+@import url(./blocks/table/_theme/table_theme_dark.css);
+@import url(./blocks/table/__cell/_theme/table__cell_theme_dark.css);
+@import url(./blocks/table/__heading/_theme/table__heading_theme_dark.css);
+@import url(./blocks/table/__text/_theme/table__text_theme_dark.css);
+>>>>>>> 5b4fbda6ea7eefd9fa6196c544b2c76e4e133c92
 
 /* resources */
 @import url(./blocks/resources/resources.css);
