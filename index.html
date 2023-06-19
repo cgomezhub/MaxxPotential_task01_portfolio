@@ -23,7 +23,7 @@
     </header>
     <main class="content">
       <section class="description">
-        <div class="two-columns">
+        <article class="two-columns">
           <h3 class="two-columns__brief">El principal problema de la educación
           </h3>
           <div class="two-columns__main-text">
@@ -36,7 +36,7 @@
             <p class="two-columns__paragraph">Bien, hay varias técnicas y ejercicios que pueden aplicarse al proceso educativo para ayudar a hacerlo más eficiente y atractivo. Continúa avanzando para descubrir algunos de los secretos del aprendizaje eficaz.
             </p>
           </div>
-        </div>
+        </article>
       </section>
       <section class="techniques">
         <h2 class="section-title"> 
@@ -101,12 +101,12 @@
         Para los amantes de la procrastinación
         </h3>
         <div class="video__iframes">
-          <iframe class="video__iframe"  width="560" height="315" src="https://www.youtube.com/embed/5MgBikgcWnY" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-          <iframe  class="video__iframe" width="560" height="315" src="https://www.youtube.com/embed/arj7oStGLkU" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          <iframe class="video__iframe"  src="https://www.youtube.com/embed/5MgBikgcWnY" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          <iframe  class="video__iframe" src="https://www.youtube.com/embed/arj7oStGLkU" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </div>
       </section>
       <section class="oakley">
-        <div class="two-columns">
+        <article class="two-columns">
           <h3 class="two-columns__brief">
             La historia de Barbara Oakley.
           </h3>
@@ -115,17 +115,15 @@
               Durante la infancia de Barbara, las matemáticas no le surgieron de forma innata. Pensaba que era una persona más orientada a las humanidades, y no precisamente brillante. En vistas a convertirse en lingüista, después de terminar el instituto se alistó en el ejército, donde la mandaron a aprender ruso. Tras varios años de servicio, durante los cuales ascendió al rango de capitán, Barbara dejó el ejército y decidió estudiar ingeniería. Fue en este momento cuando desarrolló su metodología de aprendizaje, porque se vio obligada a reprogramar su cerebro para un tipo de aprendizaje distinto. Resulta que cuando algo no te sale de forma natural, el hecho de tener que trabajar duro para obtener conocimientos, que otras personas pueden captar a la primera, te da un conocimiento más profundo y completo del tema en cuestión.
             </p>
           </div>
-        </div>
+        </article>
       </section>
       <section class="feynman">
-        <div class="feynman__content">
-         <h2 class="feynman__title">
+        <h2 class="feynman__title">
           La técnica Feynman
-         </h2>
-         <h3 class="feynman__subtitle">
+        </h2>
+        <h3 class="feynman__subtitle">
           Aprender sin olvidar
-          </h3>
-        </div>
+        </h3>
         <a href="#"  class="feynman__link"> Más &#8594;
         </a> 
         <img src="./images/feynman.png" alt="Una imagen de Richard
@@ -228,11 +226,12 @@
             Director de cine
           </h5>
           <div class="khan__book-container">
-            <img src="./images/sprint-3-sources-es/images_sprint-3/khan-book-2.png" alt="libro one" class="khan__book-pic">    
+            <img src="./images/sprint-3-sources-es/images_sprint-3/khan-book-2.png" alt="libro one" class="khan__book-pic">
+            <a href="#" class="khan__buy-link">
+              Comprar libro → 
+            </a>    
           </div>
-          <a href="#" class="khan__buy-link">
-            Comprar libro → 
-          </a>
+          
         </div>
       </section>
       <section class="kaufman">
@@ -345,13 +344,13 @@
     </main>
     <footer class="footer">
       <div class="footer__columns">
-        <div class="footer__columns footer__columns_content_copyright">
+        <div class="footer__column footer__column_content_copyright">
           <img src="./images/logo_place_footer.png" alt="logo de practicum" class="logo logo_place_footer">
           <p class="footer__author">
             &#169; 2023 Carlos Gomez 
           </p>
         </div>
-        <nav class="footer__columns footer__columns_content_about">
+        <div class="footer__column footer__column_content_about">
           <h3 class="footer__column-heading">
             Acerca de Practicum
           </h3>
@@ -360,8 +359,8 @@
             <li> <a href="#" class="footer__column-link">Misión</a></li>
             <li> <a href="#" class="footer__column-link">Profesiones</a></li>
           </ul>
-        </nav>
-        <nav class="footer__columns footer__columns_content_social">
+        </div>
+        <div class="footer__column footer__column_content_social">
           <h3 class="footer__column-heading">
             Redes sociales
           </h3>
@@ -375,7 +374,7 @@
               <a href="#" class="footer__column-link">Instagram</a>
             </li>
           </ul>
-        </nav>
+        </div>
       </div>
     </footer>
   </div>
