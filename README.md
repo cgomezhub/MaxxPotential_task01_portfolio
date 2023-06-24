@@ -3,9 +3,9 @@
     Proyecto Sprint 2 y 3 de la cohorte 9, Inicio en mayo 2023 en  el Bootcamp "Practicum" que luego paso a serllamado "TripleTen" en Junio de 2023 
 
 # Autor #
+
     Carlos Gomez
 
-    Web site:
     https://cgomezhub.github.io/web_project_1_es/
 
     cgomezlugo@hotmail.com
