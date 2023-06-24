@@ -4,7 +4,10 @@
 
 # Autor #
     Carlos Gomez
-    https://github.com/cgomezhub/web_project_1_es/
+
+    Web site:
+    https://cgomezhub.github.io/web_project_1_es/
+
     cgomezlugo@hotmail.com
     058 416 953 4983
 
