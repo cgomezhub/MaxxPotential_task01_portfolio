@@ -1,0 +1,7 @@
+.content__image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: -15% auto;
+    transform: scaleY(0.50);
+}

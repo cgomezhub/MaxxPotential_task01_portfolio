@@ -1,9 +1,9 @@
-.header {
-    height: 100vh;
-    min-height: 600px;
-    max-height: 756px;
+.header{
     display: flex;
-    position:relative;
-    background-color: #F2F2F2;
-    overflow: hidden;
-}
+    flex-wrap:wrap;
+    justify-content: space-between;
+    align-items: center;
+    width:70%;
+    margin: 3% auto 1%;
+    /* padding: 120px 120px 0; */
+  }

@@ -1,0 +1,11 @@
+.header__profile-ocupation{
+    font-size: 24pt;
+    font-family: 'Helvetica Neue Light', sans-serif;
+    color: #3D3D3D;
+}
+
+@media (max-width: 768px) {
+    .header__profile-ocupation {
+        font-size: 16pt;
+    }
+  }

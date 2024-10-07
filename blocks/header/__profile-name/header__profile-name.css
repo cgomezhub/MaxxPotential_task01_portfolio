@@ -1,0 +1,14 @@
+.header__profile-name{
+    font-size: 28pt;
+    font-family: 'Helvetica Neue Bold', sans-serif;
+    font-weight: bold;
+    color: #3D3D3D;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .header__profile-name {
+        font-size: 14pt;
+    }
+  }
+  

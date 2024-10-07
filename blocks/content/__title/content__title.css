@@ -1,0 +1,14 @@
+.content__title{
+    font-size: 28pt;
+    font-family: 'Helvetica Neue Bold', sans-serif;
+    font-weight: bold;
+    color: #3D3D3D;
+    text-align: center;
+    margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+    .content__title{
+        font-size: 22pt;
+    }
+  }
