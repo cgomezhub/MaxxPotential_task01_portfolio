@@ -1,21 +1,21 @@
-# Aprender a aprender #
-
-    Proyecto Sprint 2 y 3 de la cohorte 9, Inicio en mayo 2023 en  el Bootcamp "Practicum" que luego paso a serllamado "TripleTen" en Junio de 2023 
+# MaxxPotential Portfolio#
+ Task01 Carrer lab
 
 # Autor #
 
     Carlos Gomez
-
-    https://cgomezhub.github.io/web_project_1_es/
+    
+    Website:
+    https://cgomezhub.github.io/MaxxPotential_task01_portfolio/
 
     cgomezlugo@hotmail.com
     058 416 953 4983
 
 
-# El proyecto #
-    Desarrollo web donde se pueden visializar textos, imagenes, enlaces, tablas, listas y videos que deben estar estrategicamente ubicadas, animadas y relacionadas entre si para darle sentido a esta bella obra
+# The Project#
+    Web development where you can view texts, images, links, lists that must be strategically located, animated and related to each other to give meaning to this portfolio.
 
-# Tecnicas y tecnologias utilizadas #
+# Tech tools #
     
     https://www.w3.org/standards/webdesign/htmlcss
 
